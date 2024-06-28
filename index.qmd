@@ -4,7 +4,14 @@ The aim of this book is to be a compendium of knowledge on R made by members of 
 
 # Why R?
 
-Coming soon...
+- It is free
+- Data analysis and statics ecosystem
+- Beautiful visualization capabilities
+- Amazing reporting tools
+- Web application development
+- Vibrant and nice community
+- Widely used in research
+- Key tools in specific sectors
 
 # What you will learn in this book
 
