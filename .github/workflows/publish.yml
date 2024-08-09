@@ -31,3 +31,10 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Install dependencies with renv
+        uses: r-lib/actions/setup-renv@v2
+        env:
+          RENV_CONFIG_REPOS_OVERRIDE: https://cloud.r-project.org
+          R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+          R_COMPILE_AND_INSTALL_PACKAGES: never
