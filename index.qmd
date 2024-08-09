@@ -1,3 +1,11 @@
+---
+engine: knitr
+format: live-html
+---
+
+{{< include ./_extensions/r-wasm/live/_knitr.qmd >}}
+
+
 # Preface {.unnumbered}
 
 The aim of this book is to be a compendium of knowledge on R made by members of the WeData association. It should serve both as a reference for knowledge, and as an exercise interface. We hope to highlight some important themes in this book.
@@ -34,3 +42,60 @@ This is new territory for me, and I don't know if it will work. Perhaps I'm miss
 # What you will learn in this book
 
 Coming soon...
+
+## Exercice example from quarto-live
+
+[quarto-live](https://r-wasm.github.io/quarto-live/)
+
+Filter the `starwars` dataset so that only the droid characters are included.
+
+```{webr}
+#| setup: true
+#| exercise: ex_3
+library(dplyr)
+```
+
+```{webr}
+#| exercise: ex_3
+starwars |> ______
+```
+
+::: { .hint exercise="ex_3"}
+::: { .callout-note collapse="false"}
+## Hint 1
+
+Consider using the `filter()` function from `dplyr`.
+
+```r
+starwars |> filter(______)
+```
+:::
+:::
+
+::: { .hint exercise="ex_3"}
+::: { .callout-note collapse="false"}
+## Hint 2
+
+You should filter the dataset using the `species` column.
+
+```r
+starwars |> filter(species == ______)
+```
+:::
+:::
+
+::: { .solution exercise="ex_3" }
+::: { .callout-tip collapse="false"}
+## Fully worked solution:
+
+Use the `filter()` function from `dplyr`:
+
+```r
+starwars |>                                 #<1>
+    filter(species == "Droid")              #<2>
+```
+1. Take the `starwars` dataset, and then,
+2. Filter for the "Droid" species.
+
+:::
+:::
