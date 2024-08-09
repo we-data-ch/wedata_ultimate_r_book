@@ -47,7 +47,7 @@
     "href": "index.html#exercice-example-from-quarto-live",
     "title": "WeData’s Ultimate R Book",
     "section": "Exercice example from quarto-live",
-    "text": "Exercice example from quarto-live\nFilter the starwars dataset so that only the droid characters are included.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHint 1\n\n\n\n\n\nConsider using the filter() function from dplyr.\nstarwars |&gt; filter(______)\n\n\n\n\n\n\n\n\n\n\n\nHint 2\n\n\n\n\n\nYou should filter the dataset using the species column.\nstarwars |&gt; filter(species == ______)\n\n\n\n\n\n\n\n\n\n\n\nFully worked solution:\n\n\n\n\n\nUse the filter() function from dplyr:\n1starwars |&gt;\n2    filter(species == \"Droid\")\n\n1\n\nTake the starwars dataset, and then,\n\n2\n\nFilter for the “Droid” species.",
+    "text": "Exercice example from quarto-live\nquarto-live\nFilter the starwars dataset so that only the droid characters are included.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHint 1\n\n\n\n\n\nConsider using the filter() function from dplyr.\nstarwars |&gt; filter(______)\n\n\n\n\n\n\n\n\n\n\n\nHint 2\n\n\n\n\n\nYou should filter the dataset using the species column.\nstarwars |&gt; filter(species == ______)\n\n\n\n\n\n\n\n\n\n\n\nFully worked solution:\n\n\n\n\n\nUse the filter() function from dplyr:\n1starwars |&gt;\n2    filter(species == \"Droid\")\n\n1\n\nTake the starwars dataset, and then,\n\n2\n\nFilter for the “Droid” species.",
     "crumbs": [
       "Preface"
     ]
