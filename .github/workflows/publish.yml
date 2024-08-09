@@ -19,6 +19,9 @@ jobs:
           version: 1.5.56
           tinytex: true
       
+      - name: Install quarto-webr
+        run: quarto add r-wasm/quarto-webr --no-prompt
+      
       - name: Install quarto-live
         run: quarto add r-wasm/quarto-live --no-prompt
         

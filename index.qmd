@@ -1,7 +1,6 @@
 ---
-author: Vestin
 engine: knitr
-format: kdmlskmcsdopm
+format: live-html
 ---
 
 {{< include ./_extensions/r-wasm/live/_knitr.qmd >}}
