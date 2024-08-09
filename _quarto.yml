@@ -30,7 +30,6 @@ format:
     include-in-header: "scripts/translate.html"
   pdf:
     documentclass: scrreprt
-  live-html
 
 engine: knitr
 
