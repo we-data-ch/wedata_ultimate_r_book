@@ -20,7 +20,7 @@ jobs:
           tinytex: true
       
       - name: Install quarto-live
-        run: quarto add r-wasm/quarto-live
+        run: quarto add r-wasm/quarto-live --no-prompt
         
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
